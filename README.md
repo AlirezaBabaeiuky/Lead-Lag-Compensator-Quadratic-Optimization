@@ -16,5 +16,7 @@ lag compensator alone expectedly results in even more oscillatory response meani
 Following is the frequency-response of the syste with compensators:
 ![image](https://github.com/user-attachments/assets/0af813bc-2b4f-4c10-b2fe-93663b958fbb)
 Obviously, the peaks at the resonance are gone with lead endorsing that more robustness is secured; besides, the corresponding phase also shows increased phase margin at the gain cross-over frequency.  
+The performance index function utilized is: J = w1*ess^2 + w2*Mp^2. 
+w1 and w2, relative vlaues determine which parameter / metrics is prioritized more. (e.g., if w1 > w2, it means that offset has mor epriority than the overshoot, and vice versa.)
 
 
